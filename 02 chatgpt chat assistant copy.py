@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "INSERT_OPENAI_API_KEY"
 
 messages = []
 system_msg = input("What type of chatbot would you like to create?\n")
