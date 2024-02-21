@@ -6,7 +6,7 @@ messages = []
 system_msg = input("What type of chatbot would you like to create?\n")
 messages.append({"role": "system", "content": system_msg})
 
-while input != "quit()":
+while input != "quit":
 
     message = input()
     messages.append({"role": "user", "content": message})
